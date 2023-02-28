@@ -1,11 +1,23 @@
-import Users from './components/Users';
+import { Component } from "react";
 
-function App() {
-  return (
-    <div>
-      <Users />
-    </div>
-  );
+import Users from "./components/Users";
+
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Users />
+      </div>
+    );
+  }
 }
+
+// function App() {
+//   return (
+//     <div>
+//       <Users />
+//     </div>
+//   );
+// }
 
 export default App;
