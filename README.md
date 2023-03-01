@@ -8,3 +8,4 @@ Guided project developed during the course [React - The Complete Guide (incl Hoo
 
 ## Technologies:
 
+- state, side effect and context for class-based components
