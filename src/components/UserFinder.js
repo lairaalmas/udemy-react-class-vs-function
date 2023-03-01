@@ -19,6 +19,10 @@ class UserFinder extends Component {
     };
   }
 
+  componentDidMount() {
+    console.log("(dummy example) fetchind data from db...");
+  }
+
   componentDidUpdate(prevProps, prevState) {
     if (prevState.searchTerm !== this.state.searchTerm) {
       this.setState({
